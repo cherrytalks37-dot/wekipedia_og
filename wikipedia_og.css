@@ -1,0 +1,146 @@
+.logo{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuw8uEaKQOx6YmrImNWTLcogJ3GfxrnttKeQ&s);
+    height: 60px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.search{
+  border: 1px;
+  margin-left: 20px;
+}
+.search input{
+     width: 300px;
+}
+.top{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+.sidebar{
+    width: 20%;
+    line-height: 10px;
+    overflow-y: scroll;
+    position: sticky;
+    top: 0%;
+}
+.sidebar nav{
+    line-height: 32px;
+   margin-left: 20px;
+   overflow-y: scroll;
+}
+.content{
+    width: 75%;
+    /* margin-left: 234px; */
+}
+
+.content h4{
+    border-bottom: 1px solid grey ;
+    width: 95%;
+}
+.maincontent span{
+    color: blue;
+}
+.maincontent{
+    float: left;
+    width: 650px;
+}
+.imgbox{
+    float: right;
+    width: 300px;
+    height: auto;
+    border: 1px solid grey;
+}
+.imgbox img{
+    margin: 13px;
+}
+.pics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 150px;
+    justify-content: space-around;
+    gap: 20px;
+}
+.info-box {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+h2, h3 {
+
+  color: #000000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th {
+  background-color: #f0f0f0;
+  text-align: left;
+  width: 30%;
+  padding: 8px;
+}
+
+td {
+  background-color: #fff;
+  padding: 8px;
+}
+
+a {
+  color: #0e0e0f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.table-container {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  vertical-align: top;
+}
+
+th {
+  background-color: #e9e9e9;
+  text-align: left;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
